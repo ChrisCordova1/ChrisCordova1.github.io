@@ -1,0 +1,58 @@
+
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: system-ui;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topnav li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+.topnav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.topnav a:hover {
+  background-color: rgb(143, 184, 198);
+}
+
+.active {
+  background-color: #3c7894;
+}

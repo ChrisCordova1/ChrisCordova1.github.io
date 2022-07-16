@@ -1,0 +1,52 @@
+/* Academics div*/
+.academics {
+    display: inline-block;
+    padding: 20px;
+    width: 45%;
+    border: 2px solid black;
+}
+
+.small-seperator {
+    width: 30%;
+    color: black;
+    border-color: black;
+}
+
+.container {
+    text-align: center;
+    margin: 2% auto 2% 10%;
+    width: 80%;
+}
+
+.block {
+    display: inline-block;
+    width: 49%;
+}
+
+.image {
+    vertical-align: middle;
+}
+
+.image img {   
+    max-width: 75%;
+}
+
+.text {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Personal info div */
+.personalInfo {
+    width: 80%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.personalInfo  p {
+    text-align: center;
+}
+.personalInfo h2 {
+    text-align: center;
+}
+
